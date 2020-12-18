@@ -8,3 +8,5 @@ RUN add build-base
 COPY requirements.txt /game/requirements.txt
 
 RUN pip3 install -r requirements.txt
+
+CMD ["python", "./moonlanding/main.py"]
